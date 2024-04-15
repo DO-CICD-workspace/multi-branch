@@ -3,7 +3,7 @@ pipeline {
   stages{
     stage('checkout') {
       steps {
-        echo "Hello I'm feature-1 Branch"
+        echo "Hello I'm feature-1 Branch, become main"
       }
     }
   }
